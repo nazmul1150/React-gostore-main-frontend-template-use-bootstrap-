@@ -1,0 +1,96 @@
+.blog-sidebar-category{
+    border: 1px solid var(--border-color);
+    padding: 25px 20px;
+    margin-bottom: 30px;
+}
+.blog-sidebar-category h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--black2-color);
+}
+.blog-sidebar-ul{
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+}
+
+.blog-sidebar-ul li{
+    padding: 6px 0px 6px 15px;
+    position: relative;
+}
+.blog-sidebar-ul li i{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    opacity: 0.50;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.blog-sidebar-ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--black2-color);
+    opacity: 0.85;
+    display: block;
+}
+.blog-sidebar-ul li a:hover{
+    color: var(--hover-color);
+}
+
+/* blog-sidebar-post */
+.blog-sidebar-post{
+    border: 1px solid var(--border-color);
+    padding: 25px 20px;
+    margin-bottom: 30px;
+}
+
+.blog-sidebar-post h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--black2-color);
+}
+
+/* blog-sidebar-newslatter */
+.blog-sidebar-newslatter{
+    border: 1px solid var(--border-color);
+    padding: 25px 20px;
+    margin-bottom: 30px;
+}
+.blog-sidebar-newslatter h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--black2-color);
+}
+.blog-sidebar-newslatter form{
+    padding-top: 10px;
+}
+
+.blog-sidebar-newslatter input[type='text']{
+    width: 100%;
+    outline: 0px;
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--black2-color);
+    padding: 10px 16px;
+    margin-bottom: 12px;
+}
+
+.blog-sidebar-newslatter input[type='submit']{
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    outline: 0px;
+    border: 0px;
+    border-radius: 50px;
+    background: var(--hover-color);
+    color: var(--white2-color);
+    padding:6px 0px;
+}

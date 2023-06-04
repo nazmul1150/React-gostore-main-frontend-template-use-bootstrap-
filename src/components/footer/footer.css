@@ -1,0 +1,228 @@
+.footer{
+    background-color: rgba(19,31,53,1);
+    color: var(--white2-color);
+    padding: 50px 0px 5px 0px;
+}
+.footer-tag{}
+
+.footer-tag a{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(183,185,188,1);
+    background: rgba(26,38,59,1);
+    border: 1px solid rgb(43 54 74 / 0%);
+    padding: 2px 15px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+}
+.footer-tag a:hover{
+    color: var(--hover-color);
+}
+
+/* footer area */
+.footer-ariea{
+    padding: 45px 0px 45px 0px;
+}
+.footer-title{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+/* footer 1 */
+.info-content{
+    margin: 0;
+    padding: 16px 0px 0px 0px;
+}
+.info-content li{
+    display: flex;
+    margin-top: 8px;
+}
+.footer-1-icon{
+    font-size: 15px;
+    color: var(--hover-color);
+    width: 22px;
+}
+.foooter-1-text{}
+.foooter-1-text span{
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    line-height: 22px;
+    color: rgba(183,185,188,1);
+}
+
+/* footer 2*/
+.footer-2-ul{
+    margin: 0;
+    padding: 16px 0px 0px 0px;
+}
+.footer-link{
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    line-height: 22px;
+    color: rgba(183,185,188,1);
+    padding: 5px 0px
+}
+.footer-link:hover{
+    color: var(--hover-color);
+}
+
+/* footer 3*/
+.footer-3-ul{
+    margin: 0;
+    padding: 16px 0px 0px 0px;
+}
+
+/* footer-4 */
+.footer-4{
+    padding: 16px 0px 0px 0px;
+    position: relative;
+}
+.footer-4 p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(183,185,188,1);
+}
+
+.footer-4 form{
+    position: relative;
+}
+.footer-4 .subscribe{
+    outline: 0;
+    border: 0;
+    width: 100%;
+    background: var(--white2-color);
+    color: var(--input-color);
+    padding: 10px 45px 10px 10px;
+}
+
+.footer-4 [type=submit]{
+    border: 0px;
+    outline: 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 0;
+    width: 40px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    transition: opacity 500ms ease 0s;
+    z-index: 3;
+    background: transparent;
+}
+.footer-4 form::after{
+    letter-spacing: 0;
+    content: "\f1d8";
+    font-weight: 900;
+    font-family: FontAwesome;
+    line-height: 40px;
+    width: 40px;
+    transition: color 500ms ease 0s;
+    position: absolute;
+    right: 3px;
+    bottom: 0px;
+    top: 2px;
+    text-align: center;
+    color: var(--black2-color);
+}
+.footer-sosial-media{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px 35px 0px;
+}
+
+.footer-sosial-media a{
+    font-size: 14px;
+    color: var(--white2-color);
+    position: relative;
+    width: 30px;
+}
+.footer-sosial-media a i {
+    z-index: 5 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer-sosial-media a::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.footer-sosial-media a.sosial-media-facebook::after{
+    background: #37538E;
+}
+.footer-sosial-media a.sosial-media-twitter::after{
+    background: #1C94DF;
+}
+.footer-sosial-media a.sosial-media-youtube::after{
+    background: #BB2021;
+}
+.footer-sosial-media a.sosial-media-instagram::after{
+    background: #B92762;
+}
+
+/* footer-copyright */
+.footer-copyright{
+    text-align: center;
+    border-top: 1px solid rgba(43,54,74,1);
+    padding: 12px 0px;
+    color: rgba(183,185,188,1);
+}
+.footer-copyright span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+/* media query */
+@media (max-width: 575px) {
+    .padding-top-footer-2{
+        padding-top: 20px;
+    }
+    .padding-top-footer{
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .padding-top-footer{
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1200px) {  
+}

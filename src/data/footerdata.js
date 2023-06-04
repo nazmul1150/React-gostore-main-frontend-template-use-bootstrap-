@@ -1,0 +1,25 @@
+
+export const tag = [
+    {id:1, name:"Air-conditioner"},
+    {id:2, name:"Digital Camera"},
+    {id:3, name:"Electrolux"},
+    {id:4, name:"Fridge"},
+    {id:5, name:"Headphone"},
+    {id:6, name:"IpadIphone"},
+    {id:7, name:"Laptop"},
+    {id:8, name:"Macbook"},
+    {id:9, name:"Microwave"},
+    {id:10, name:"Panasonic"},
+    {id:11, name:"PC Accessories"},
+    {id:12, name:"Printer"},
+    {id:13, name:"Samsung"},
+    {id:14, name:"Sanzo"},
+    {id:15, name:"Set Computer"},
+    {id:16, name:"Smartphone"},
+    {id:17, name:"Smart TV"},
+    {id:18, name:"Smartwatch"},
+    {id:19, name:"Speaker"},
+    {id:20, name:"Tablet"},
+    {id:21, name:"Vacuum cleaner"},
+    {id:22, name:"Washing machine"}
+];

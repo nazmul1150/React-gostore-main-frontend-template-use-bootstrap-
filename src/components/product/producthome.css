@@ -1,0 +1,232 @@
+.product-home-section {}
+
+.product-home-img {
+    position: relative;
+}
+
+.product-home-img .img-corosoul {
+    position: relative;
+    display: block;
+}
+
+.product-home-img .img-corosoul img {
+    z-index: 1;
+    position: relative;
+}
+
+.product-home-img .img-corosoul::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    content: "";
+    background: #000;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 4;
+    transition: 350ms ease 0s;
+}
+
+.com-wislist {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+
+
+.compair,
+.wishllist {
+    position: relative;
+}
+
+.compair {
+    margin-bottom: 9px;
+    margin-right: 2px;
+}
+
+.wishllist {
+    margin-bottom: 9px;
+    margin-right: 2px;
+}
+
+.compair-icon,
+.wishllist-icon {
+    font-size: 13px;
+    background: var(--white1-color);
+    color: var(--black2-color);
+    padding: 5px 8px;
+    position: relative;
+}
+
+.compair-icon:hover,
+.wishllist-icon:hover {
+    color: var(--white1-color);
+    background: var(--black2-color);
+}
+
+
+.compair-icon label,
+.wishllist-icon label {
+    position: absolute;
+    padding: 2px 10px 2px 10px;
+    left: auto;
+    right: 35px;
+    top: auto;
+    background: var(--white1-color);
+    color: var(--black2-color);
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: 350ms ease 0s;
+    cursor: pointer;
+}
+
+.compair-icon:hover label,
+.wishllist-icon:hover label {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* title */
+.carosoul-title {
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+.carosoul-title h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.carosoul-title h3 a{
+    color: var(--black2-color);
+}
+
+/* rating */
+.carosoul-rating {}
+
+.carosoul-rating {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    font-size: 13px;
+    color: rgba(249, 172, 0, 1);
+    margin-bottom: 8px;
+}
+
+.carosoul-rating label {
+    color: var(--input-color);
+    font-weight: 400;
+}
+
+/* price */
+.product-group-price-button-meta-wrapperr {
+    overflow: hidden;
+}
+
+.product-group-price-button-meta {
+    transition: transform 200ms ease 0s;
+    position: relative;
+}
+
+.price-group {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--input-color);
+}
+
+.price-dece {
+    font-size: 13px;
+}
+
+.price-main {
+    color: var(--hover-color);
+    margin-left: 15px;
+}
+
+.product-group-button-meta {
+    transition: 150ms ease 0s;
+    overflow: hidden
+}
+
+.product-group-price-button-meta .price-group+.product-group-button-meta {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: flex
+}
+
+.product-group-button-meta a{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--black2-color);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.product-group-button-meta a:hover{
+    text-decoration: underline;
+}
+
+.product-group-button-meta a::before{
+    position: absolute;
+    left: -6px;
+    top: 6px;
+    bottom: 6px;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    content: "";
+    width: 1px;
+    border-color: var(--border-color);
+    height: 8px;
+}
+.product-group-button-meta a:first-child:before{
+    display: none;
+}
+
+
+.product-group-button-cart{
+}
+
+.product-group-button-quick-view{
+   margin-left: 12px;
+}
+
+
+/* hover */
+.product-home-section:hover .product-home-img .img-corosoul::after {
+    opacity: 0.1;
+    visibility: inherit;
+}
+
+
+.product-home-section:hover .product-home-img .com-wislist {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* title */
+.product-home-section:hover .carosoul-title h3 a{
+    color: var(--hover-color);
+}
+
+.product-home-section:hover .product-group-price-button-meta {
+    transform: translateY(-100%)
+}

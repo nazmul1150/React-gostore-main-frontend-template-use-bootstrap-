@@ -1,0 +1,172 @@
+.home-isotop-section {}
+
+.home-top-section {
+    position: relative;
+}
+
+.home-title {
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.home-top-tabs{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.home-top-tabs a{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--input-color);
+    padding: 4px 8px;
+}
+.home-top-tabs a:hover,
+.home-top-tabs a.active{
+    color: var(--hover-color);
+}
+
+/* home-isotop */
+.home-isotop {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+}
+/* banner */
+.home-isotop-banner a img{
+    height: 648px;
+} 
+
+/* catagory */
+.home-isotop-category {
+    width: 15%;
+    padding: 15px 15px 10px 15px;
+    border:1px solid var(--border-color);
+}
+
+.home-isotop-ul {
+    padding: 0;
+    margin: 0;
+}
+
+.home-isotop-ul li {}
+
+.home-isotop-ul li a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--input-color);
+    display: block;
+    padding: 6px 0px;
+}
+.home-isotop-ul li a:hover{
+    color: var(--hover-color);
+}
+
+ /* middle */
+.home-isotop-main {
+    width: 65%;
+    border-top:1px solid var(--border-color);
+}
+.home-isotop-product{
+    padding: 15px;
+    border-left: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--border-color);
+    border-right: 0px;
+    border-top: 0px;
+}
+ /* end */
+.home-isotop-banner {
+    width: 20%;
+    height: auto;
+}
+
+
+/* media query */
+@media (max-width: 575px) {
+    .home-isotop-banner{
+        display: none;
+    }
+    .home-isotop-main {
+        width: 100%;
+    }
+    .home-isotop-category {
+        display: none;
+    }
+    .home-title{
+        font-size: 20px;
+    }
+    .home-top-tabs {
+        position: relative;
+        margin: 7px 0px 0px -6px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .home-isotop-banner{
+        display: none;
+    }
+    .home-isotop-main {
+        width: 76%;
+    }
+    .home-isotop-category {
+        width: 24%;
+        padding: 15px 0px 10px 15px;
+    }
+    .home-title{
+        font-size: 20px;
+    }
+    .home-top-tabs {
+        top: 26%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .home-isotop-category {
+        /* border-left: 0px; */
+    }
+    .home-isotop-banner{
+        overflow: hidden;
+    }
+    .home-isotop-banner a img{
+        height: 568px;
+    }
+    .home-top-tabs {
+        top: 26%;
+    }
+    .home-title{
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .home-isotop-category {
+        border-left: 0px;
+    }
+    .home-isotop-banner{
+        overflow: hidden;
+    }
+    .home-isotop-banner a img{
+        height: 570px;
+    }
+    .home-top-tabs {
+        top: 26%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .home-top-tabs {
+        top: 26%;
+    }
+    .home-isotop-banner a img{
+        height: 590px;
+    }
+}
+
+@media (min-width: 1200px) { 
+}

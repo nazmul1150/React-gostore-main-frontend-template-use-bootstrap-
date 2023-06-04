@@ -1,0 +1,17 @@
+.header-top{
+    background: url('../../../../public/img/store-noted.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px !important;
+    padding: 20px 5px;
+}
+
+.header-top-small-text{
+    color: var(--hover-color);
+    font-weight: 600;
+    line-height: 26px;
+}

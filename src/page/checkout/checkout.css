@@ -1,0 +1,224 @@
+.checkout_page{
+    padding: 50px 0px;
+}
+
+.woocommerce_checkout_info{
+padding-bottom: 30px;
+}
+
+.woocommerce_checkout_info h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.woocommerce_checkout_info h4 a{
+    color: var(--hover-color);
+}
+
+.form_title{}
+.form_title h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* form  */
+.checkout_form{
+   padding-bottom: 10px;
+}
+
+.checkout_form label{
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--input-color);
+    padding-bottom: 5px;
+}
+
+.checkout_form input{
+    outline: 0;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--input-color);
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+
+.checkout_form select{
+    outline: 0;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--input-color);
+    padding: 8px 10px;
+}
+.checkout_form a{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--black2-color);
+    margin-bottom: 10px;
+}
+
+#ship-different-address{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.checkout_form textarea{
+    outline: 0;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--input-color);
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+.checkout_pading{
+    margin: 15px 0px;
+}
+
+/* sidebar  */
+.order_details{
+    border: 1px dashed var(--hover-color);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.order_details h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+.cart_item{
+    display: flex;
+    justify-content: space-between;
+}
+.cart_item_padding_botton{
+    padding-bottom: 15px;
+}
+.cart_item_padding_top{
+    padding-top: 15px;
+}
+.cart_item label{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.product_name{
+    width: 60%;
+}
+.border-bottom{
+    border-bottom: 1px solid var(--border-color);
+}
+
+.product_shiping_name{
+    width: 30%;
+}
+.product_total_price{
+    color: var(--hover-color);
+}
+
+/* form  */
+
+.payment_list{
+    border: 1px dashed var(--hover-color);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.payment_list div label{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--input-color);
+    display: flex;
+    align-items: center;
+}
+.payment_list div label img{
+    width: 200px;
+    padding-left: 10px;
+}
+.payment_list div label input{
+    margin-right: 10px;
+}
+.payment-text{
+    background-color: #fafafa;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px;
+}
+.payment-text p{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.payment_list div input[type='submit']{
+    outline: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--white2-color);
+    background: var(--hover-color);
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: 1px solid var(--hover-color);
+}
+
+.payment_list div input[type='submit']:hover{
+    background: transparent;
+    color: var(--hover-color);
+}
+
+
+/* media query  */
+
+@media (max-width: 575px) {
+    .checkout_page {
+        padding: 50px 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .payment_list div label{
+        display: block;
+    }
+    .payment_list div label img {
+        width: 110px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .payment_list div label img {
+        width: 110px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1200px) {  
+}

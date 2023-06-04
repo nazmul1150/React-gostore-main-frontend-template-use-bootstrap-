@@ -1,0 +1,195 @@
+.carosoal-home {
+    padding: 50px 0px;
+    position: relative;
+}
+
+.carosoul-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.carosoul-top h3 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.time label {
+    font-size: 14px;
+    font-weight: 400;
+    color: var;
+}
+
+.time h3 {
+    font-size: 18px !important;
+    line-height: 18px;
+    font-weight: 600;
+    background: var(--hover-color);
+    color: var(--white2-color);
+    padding: 5px 6px;
+    width: 161px;
+    letter-spacing: 3px;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.home-carosoul {
+    border-right: 1px solid var(--border-color);
+    padding: 15px;
+}
+
+.carosoal-home .slick-list {
+    border: 1px solid var(--border-color);
+}
+
+
+/* arrows */
+.carosoul-home-slider .slick-next,
+.carosoul-home-slider .slick-prev {
+    top: -32px;
+    border: 1px solid #0000001f;
+    padding: 2px 8px;
+    width: auto;
+    height: auto;
+}
+
+.carosoul-home-slider .slick-next:hover,
+.carosoul-home-slider .slick-prev:hover {
+    background: var(--hover-color);
+    border-color: var(--hover-color);
+
+}
+
+.carosoul-home-slider .slick-next {
+    right: 2px;
+}
+
+.carosoul-home-slider .slick-prev {
+    left: 95%;
+}
+
+.carosoul-home-slider .slick-next:before,
+.carosoul-home-slider .slick-prev:before {
+    font-size: 16px;
+    line-height: 1;
+    opacity: 1;
+    color: #00000069;
+}
+
+.carosoul-home-slider .slick-next:before {
+    content: '\f061';
+}
+
+.carosoul-home-slider .slick-prev:before {
+    content: '\f060';
+}
+
+.carosoul-home-slider .slick-next:hover:before,
+.carosoul-home-slider .slick-prev:hover:before {
+    color: var(--black2-color);
+}
+
+/* media query */
+
+@media (max-width: 575px) {
+    .carosoul-top {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .time {
+        margin-left: 0px;
+        padding: 6px 0px 0px 0px;
+    }
+
+    .time h3 {
+        font-size: 12px !important;
+        line-height: 16px;
+        padding: 1px 4px;
+        width: 115px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .carosoul-top h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .time h3 {
+        font-size: 12px !important;
+        line-height: 16px;
+        padding: 1px 4px;
+        width: 115px;
+    }
+
+    .time {
+        margin-left: 25px;
+    }
+
+    .carosoul-home-slider .slick-next:before,
+    .carosoul-home-slider .slick-prev:before {
+        font-size: 10px;
+    }
+
+    .carosoul-home-slider .slick-next,
+    .carosoul-home-slider .slick-prev {
+        padding: 1px 6px;
+    }
+
+    .carosoul-home-slider .slick-prev {
+        left: 91%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .carosoul-top h3 {
+        font-size: 23px;
+    }
+
+    .time {
+        margin-left: 30px;
+    }
+
+    .time h3 {
+        font-size: 12px !important;
+        line-height: 10px;
+        width: 118px;
+    }
+
+    .carosoul-home-slider .slick-next:before,
+    .carosoul-home-slider .slick-prev:before {
+        font-size: 10px;
+    }
+
+    .carosoul-home-slider .slick-next,
+    .carosoul-home-slider .slick-prev {
+        padding: 1px 6px;
+    }
+
+    .carosoul-home-slider .slick-prev {
+        left: 93%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .carosoul-home-slider .slick-prev {
+        left: 93%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .carosoul-home-slider .slick-prev {
+        left: 94%;
+    }
+}
+
+@media (min-width: 1200px) {}

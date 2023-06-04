@@ -1,0 +1,60 @@
+.shop_shingle_offer_section{}
+.shop_shingle_offer_section h3{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 38px;
+    color: var(--black2-color);
+    margin-bottom: 20px;
+}
+
+/* offer img  */
+.shop_offer_img{
+    display: flex;
+    align-items: center;
+}
+
+.shop_offer_img img{
+    width: 200px;
+}
+.shop_offer_img span{
+    font-size: 30px;
+    font-weight: 100;
+    color: var(--input-color);
+}
+.shop_offer_text{
+    padding-top: 30px;
+}
+.shop_offer_text p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: var(--black2-color);
+}
+
+.shop_offer_price{
+    padding: 0px 0px 0px 10px;
+}
+.shop_offer_price h6{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    color: var(--black2-color);
+}
+
+.shop_offer_price span{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    color: var(--hover-color);
+    display: block;
+    padding-bottom: 21px;
+}
+.shop_offer_price a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--white2-color);
+    background: var(--hover-color);
+    padding: 8px 25px;
+}

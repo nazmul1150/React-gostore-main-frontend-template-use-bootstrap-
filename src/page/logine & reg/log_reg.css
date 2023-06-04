@@ -1,0 +1,96 @@
+
+.title_log_page{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.logine_page_form{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.submit_group{
+
+}
+.submit_group label{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--input-color);
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.submit_group .remember_check_box{
+    margin-right: 5px;
+}
+
+.submit_group .submit{
+    outline: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--white2-color);
+    background: var(--hover-color);
+    text-align: center;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    border: 1px solid var(--hover-color);
+}
+
+.submit_group .submit:hover{
+    background: transparent;
+    color: var(--hover-color);
+}
+
+ .forgote_password a{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--hover-color)!important;
+ }
+
+
+ /* media queery */
+
+ @media (max-width: 575px) {
+    .logine_page_form{
+        width: 90%;
+    }
+    .submit_group {
+        flex-direction: column-reverse;
+    }
+    .submit_group .submit{
+        margin-top: 8px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .submit_group {
+        flex-direction: column-reverse;
+    }
+    .logine_page_form{
+        width: 90%;
+    }
+    .submit_group .submit{
+        margin-top: 8px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logine_page_form{
+        width: 90%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logine_page_form{
+        width: 90%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1200px) {  
+}

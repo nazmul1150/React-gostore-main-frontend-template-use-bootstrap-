@@ -1,0 +1,118 @@
+.shop-main-top{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.shop-main-top-title{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: var(--black2-color);
+}
+.shop-main-top-title:hover{
+    color: var(--hover-color);
+}
+
+.shop-main-top-dropdown{
+    position: relative;
+    background: #FAFAFA;
+    padding: 8px 13px;
+    width: 25%;
+}
+.shop-main-top-dropdown a{
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    display: block;
+    color: var(--black2-color);
+}
+.shop-main-top-dropdown a:hover{
+    color: var(--hover-color);
+}
+.shop-main-top-dropdown a i{
+    opacity: 0.4;
+    margin-left: 5px;
+    position: absolute;
+    right: 0;
+    top: 19%;
+}
+.shop-main-top-dropdown .dropdown-menu.show {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    transform: translate(0px, 27px) !important;
+}
+
+.shop-main-top-dropdown ul {
+    background: var(--white1-color);
+    box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+.shop-main-top-dropdown ul li {
+    padding: 2px 0px;
+}
+
+.shop-main-top-dropdown ul li a {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: var(--input-color);
+    display: block;
+}
+
+.shop-main-top-dropdown ul li a:hover {
+    color: var(--hover-color);
+}
+
+/* shop-main-body */
+.shop-main-body{
+    padding: 30px 0px 0px 0px;
+}
+
+.shop-product-row{
+    border-top:1px;
+    border-right: 1px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: var(--border-color);
+}
+
+.shop-product{
+    padding: 15px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: var(--border-color);
+}
+
+.load-more{
+    padding: 40px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.load-more h3{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--black2-color);
+}
+.load-more a{
+    background: var(--black2-color);
+    color: var(--white2-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-top: 15px;
+}

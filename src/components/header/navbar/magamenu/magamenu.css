@@ -1,0 +1,182 @@
+.maga-menu{
+    display: flex;
+    width: 100%;
+    background: var(--white1-color);
+    box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
+}
+/* left */
+.category-magamenu{
+    width: 20%;
+    margin: 0px 0px 0px 0px;
+    padding: 3px 0px 10px 13px;
+    background-color: #FAFAFA;
+}
+
+.magamenu-ul{
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.magamenu-ul li{
+    border-bottom: none !important;
+}
+.magamenu-ul li a{
+    padding: 5px 0px !important;
+}
+
+/* middle */
+.product-magamenu{
+    width: 40%;
+    padding: 0px 0px 0px 0px;
+}
+
+.magamenu-product-ul{
+    background: transparent !important;
+    box-shadow: none !important;
+    width: 100% !important;
+}
+.magamenu-product-ul li{
+    display: block;
+}
+.magamenu-product-ul li a{
+    padding: 0px 0px !important;
+}
+.magamenu-product{
+    display: flex;
+    padding: 10px 0px;
+}
+.magamenu-product a{
+    width: 22%;
+}
+.magamenu-product-body{
+    width: 78%;
+    margin-left: 10px;
+}
+.magamenu-product-body a{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    color: var(--black2-color) !important;
+    display: block !important;
+    width: 100%;
+}
+.magamenu-product-body a:hover{
+    color: var(--hover-color) !important;
+}
+
+.magamenu-product-rating{
+    display: flex;
+    gap: 1px;
+    padding: 4px 0px;
+}
+.magamenu-product-rating span{
+    font-size: 12px;
+    font-weight: 400;
+}
+.magamenu-product-rating span.rating{
+    color: #ffb600;
+}
+.magamenu-product-rating span.rating-value{
+    color: var(--input-color);
+}
+
+.magamenu-product-body p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    color: var(--black2-color);
+    padding: 5px 0px;
+}
+
+/* right */
+.img-magamenu{
+    width: 40%;
+    padding: 10px 25px;
+    position: relative;
+}
+ /* banner */
+.img-magamenu a{
+    position: relative;
+    overflow: hidden;
+}
+.img-magamenu a img{
+    transform: scale(1,1);
+    transition: transform 400ms ease 0s;
+}
+
+.img-magamenu-body{
+    position: absolute;
+    left: 3%;
+    right: auto;
+    top: 3%;
+    bottom: auto;
+    transition: 300ms ease 0s;
+    padding: 25px 25px 13px 13px;
+}
+
+.img-magamenu-body h5{
+    color: var(--hover-color);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0px;
+}
+.img-magamenu-body h3{
+    color: var(--white2-color);
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 600;
+}
+.img-magamenu-body button{
+    color: var(--black2-color);
+    background: var(--white2-color);
+    border: 0px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin-top: 6px;
+}
+.img-magamenu-body button i{
+    color: var(--black2-color);
+    opacity: 1 !important;
+    margin-left: 2px;
+    margin-right: 0px !important;
+}
+
+.img-magamenu a:hover img{
+    transform: scale(1.2,1.2);
+}
+
+.img-magamenu a:hover .img-magamenu-body button{
+    color: var(--white2-color);
+    background: var(--hover-color);
+}
+.img-magamenu a:hover .img-magamenu-body button i{
+    color: var(--white2-color);
+}
+
+
+
+
+/* media css */
+
+@media (max-width: 575px) {
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1200px) {
+    
+    
+}

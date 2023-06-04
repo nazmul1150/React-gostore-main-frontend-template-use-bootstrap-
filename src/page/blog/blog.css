@@ -1,0 +1,25 @@
+.blog-page{
+    padding: 50px 0px 50px 0px;
+}
+.blog-page-cart-section{
+    padding: 15px;
+}
+
+.load-more-blog{
+    padding: 40px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.load-more-blog a{
+    background: var(--black2-color);
+    color: var(--white2-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
